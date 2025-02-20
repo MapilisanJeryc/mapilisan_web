@@ -1,5 +1,168 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeryc Erjy Mapilisan - Portfolio</title>
+    <!-- Font Awesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Resetting margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f7fc;
+            color: #333;
+        }
+        header {
+            background-color: #0066cc; /* Blue background */
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        section {
+            padding: 40px;
+        }
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #0066cc;
+        }
+        .bio {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .bio img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        .bio p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            max-width: 600px;
+        }
+        .skills, .hobbies {
+            margin-top: 30px;
+        }
+        .skills ul, .hobbies ul {
+            list-style-type: none;
+        }
+        .skills li, .hobbies li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .skills li i, .hobbies li i {
+            margin-right: 15px;
+            font-size: 1.5em;
+            color: #0066cc;
+        }
+        .contact p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .contact .contact-btn {
+            background-color: #0066cc;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+        .contact .contact-btn:hover {
+            background-color: #004c99;
+        }
+        footer {
+            background-color: #0066cc;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .bio {
+                flex-direction: column;
+                align-items: center;
+            }
+            .bio img {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jeryc Erjy Mapilisan</h1>
+    <p>IT Staff - Columban College Inc.</p>
+</header>
+
+<section class="bio">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="bio">
+            <img src="download.jpg">
+            <p>Hello! My name is Jeryc Erjy Mapilisan, and I am an IT Staff at Columban College Inc. I’m passionate about technology and problem-solving. I am 24 years old, and I love working with IT systems to provide support and drive results for the team. My career is centered around helping others through technology, ensuring smooth operations and assisting with technical challenges.</p>
+        </div>
+    </div>
+</section>
+
+<section class="skills">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li><i class="fab fa-js-square"></i> JavaScript</li>
+            <li><i class="fab fa-laravel"></i> Laravel</li>
+            <li><i class="fab fa-php"></i> PHP</li>
+            <li><i class="fab fa-html5"></i> HTML & CSS</li>
+        </ul>
+    </div>
+</section>
+
+<section class="hobbies">
+    <div class="container">
+        <h2 class="section-title">Hobbies</h2>
+        <ul>
+            <li><i class="fas fa-basketball-ball"></i> Basketball</li>
+            <li><i class="fas fa-gamepad"></i> Playing Online Games</li>
+        </ul>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+        <h2 class="section-title">Contact Information</h2>
+        <p>Email: jeryc@example.com</p>
+        <p>Phone: 123-456-7890</p>
+        <a href="mailto:jeryc@example.com" class="contact-btn">Contact Me</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Jeryc Erjy Mapilisan</p>
+</footer>
+
+</body>
+</html>
